@@ -28,6 +28,8 @@ $orange: #f8961f;
 $yellow: #feb922;
 $brown: #b1a58e;
 $blue: #33a3dc;
+$green: #8dc73f;
+$dark-green: #638d3c;
 
 *{
     transition: 300ms ease;
@@ -117,6 +119,14 @@ h1{
         width: 50%;
     }
 }
+
+.tagline{
+        font-size: 70px;
+        font-family: $barlow;
+        font-weight: 700;
+        line-height: 75px;
+        text-transform: uppercase;
+    }
 
 #wpadminbar{
    // display: none!important;
