@@ -1,0 +1,138 @@
+.about-grow{
+height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: wrap;
+background-image: url(../images/backgrounds/bg-bg-blue.jpg);
+background-attachment: fixed;
+background-position: top;
+background-size: cover; 
+position: relative;
+width:100%;
+	.tag-cont, 
+	.blue-curve-txt{
+	    	height: 100%;
+	    	display: flex;
+			flex-flow: column;
+			justify-content: center;
+			/*padding-left:10%;*/
+			/*align-items: center;*/
+	    }
+	    .tag-cont{
+	    	padding-left: 10%;
+	    }
+	    .blue-curve-txt{
+	    	padding-right: 10%;
+	    }
+	    .tagline{
+	    	font-size: 70px;
+	    	font-family: $barlow;
+		    font-weight: 700;
+		    color: $blue;
+		    line-height: 75px;
+	    }
+	    .orange{
+    		color: $orange;
+    		padding:5px 0px;
+    		width: 395px;
+	    }
+	    .under-purpose{
+	    position: absolute;
+	    bottom:0;
+	    width: 50%;
+	    margin-left:auto;
+	    margin-right:auto;
+	    padding: 25px 0px;
+	    }
+}	
+
+.our-firm{
+	background-color:white;
+	color: black;
+	width: 100%;
+	h1{
+		color: $blue;
+	}
+}
+
+.client-value{
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: wrap;
+background-attachment: fixed;
+background-position: top;
+background-size: cover; 
+position: relative;
+background-image: url(../images/backgrounds/cli-val-br.jpg);
+	.tagline{
+	    	font-size: 70px;
+	    	font-family: $barlow;
+		    font-weight: 700;
+		    line-height: 75px;
+		    color: white;
+	    }
+	    .orange{
+    		color: $orange;
+    		padding:5px 0px;
+    		width: 395px;
+	    }
+}
+
+.four-blocks{
+	color: $blue;
+	background-color: #d6edf8;
+	p{
+	color: black;
+	}
+}
+
+.our-culture{
+background-color: white;
+	.tagline{
+		font-size: 70px;
+    	font-family: $barlow;
+	    font-weight: 700;
+	    line-height: 75px;
+	    color:$yellow;
+		text-transform: uppercase;
+	}
+	h1{
+	color:$yellow;
+	}
+	p, .blue-curve-txt{
+	color: black;
+	}
+	.color-blocks{
+	p{
+	color: white;
+	}
+	}
+}
+
+.our-history{
+background-image: url(../images/backgrounds/bg-gray.jpg);
+background-attachment: fixed;
+background-position: top;
+background-size: cover; 
+	.tagline{
+		font-size: 70px;
+    	font-family: $barlow;
+	    font-weight: 700;
+	    line-height: 75px;
+	    color:$blue;
+		text-transform: uppercase;
+	}
+	.orange{
+	color: $orange;
+	line-height: 85px;
+	}
+	h1{
+	color:$blue;
+	}
+	p, .blue-curve-txt{
+	color: white;
+	}	
+}
